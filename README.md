@@ -8,7 +8,7 @@ rnamap.sh -d /path/to/rawdata -r /path/to/genome.fna -g /path/to/genomic.gtf -1 
 ```
 
 # Option
-`-d` rawdataのあるディレクトリ  
+`-d`　rawdataのあるディレクトリ  
 `-r`　リファレンスとなるゲノム配列のfastaファイル  
 `-g`　リファレンスとなるgtfファイル  
 `-1`　除去するアダプター配列情報 #1  
