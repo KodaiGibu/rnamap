@@ -27,7 +27,4 @@ rnamap.sh -d /path/to/rawdata -r /path/to/genome.fna -g /path/to/genomic.gtf -1 
 `-2`　除去するアダプター配列情報 #2  
 `-o`　アウトプットを出力するディレクトリ
 
-# dependence
-```bash:
-rnamap.sh -d /path/to/rawdata -r /path/to/genome.fna -g /path/to/genomic.gtf -1 AAGTCGGAGGCCAAGCGGTCTTAGGAAGACAA -2 AAGTCGGATCGTAGCCATGTCGTTCTGTGAGCCAAGGAGTTG -o /path/to/output_dir
-```
+
