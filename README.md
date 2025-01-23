@@ -4,7 +4,7 @@ RNA-seqのリードをゲノム情報にマッピングし、カウントする�
 
 # ダウンロード
 ```bash:
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone https://github.com/KodaiGibu/rnamap.git
 ```
 
 # Environment Construction
