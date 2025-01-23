@@ -2,7 +2,7 @@
 This script is for mapping and counting RNA-seq reads to genome data.  
 RNA-seqのリードをゲノム情報にマッピングし、カウントするためのスクリプトです。
 
-# ダウンロード
+# download
 ```bash:
 git clone https://github.com/KodaiGibu/rnamap.git
 ```
