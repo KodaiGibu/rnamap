@@ -9,8 +9,8 @@ git clone https://github.com/KodaiGibu/rnamap.git
 
 # Environment Construction
 ```bash:
-conda create -n rnaseq_mapping -y
-conda activate rnaseq_mapping
+conda create -n rnamap -y
+conda activate rnamap
 
 mamba install -c bioconda trimmomatic==0.39 -y
 mamba install -c bioconda fastqc==0.12.1 -y
