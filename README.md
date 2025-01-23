@@ -2,6 +2,11 @@
 This script is for mapping and counting RNA-seq reads to genome data.  
 RNA-seqのリードをゲノム情報にマッピングし、カウントするためのスクリプトです。
 
+# ダウンロード
+```bash:
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
 # Environment Construction
 ```bash:
 conda create -n rnaseq_mapping -y
