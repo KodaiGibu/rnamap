@@ -1,31 +1,13 @@
 #!/bin/bash
 
-# オプションから引数を渡す。
-while getopts ":r:g:d:1:2:o:" opt; do
-  case $opt in
-    r)
-      ref=$OPTARG
-      ;;
-    g)
-      gtf=$OPTARG
-      ;;
-    d)
-      raw_dir=$OPTARG
-      ;;
-    1)
-      primer_1=$OPTARG
-      ;;
-    2)
-      primer_2=$OPTARG
-      ;;
-    o)
-      output=$OPTARG
-      ;;
-    \?)
-      echo "無効なオプション: -$OPTARG" >&2
-      ;;
-  esac
-done
+############################
+#Config
+raw_data="/path/to/rawdata " #rawdataのあるディレクトリ
+primer_1="AAGTCGGAGGCCAAGCGGTCTTAGGAAGACAA" #除去するアダプター配列情報 #1
+primer_2="AAGTCGGATCGTAGCCATGTCGTTCTGTGAGCCAAGGAGTTG" #除去するアダプター配列情報 #2
+ref="/path/to/genome.fna"      #リファレンスとなるゲノム配列のfastaファイル
+gtf="/path/to/genomic.gtf"      #リファレンスとなるgtfファイル
+output="/path/to/output_dir"   #アウトプットを出力するディレクトリ 
 
 ############################
 #outputディレクトリに移動
