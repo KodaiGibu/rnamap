@@ -1,8 +1,8 @@
-# rnamap
+# rnamap.sh
 This script is for mapping and counting RNA-seq reads to genome data.  
 RNA-seqのリードをゲノム情報にマッピングし、カウントするためのスクリプトです。
 
-# download
+# Download
 ```bash:
 git clone https://github.com/KodaiGibu/rnamap.git
 ```
