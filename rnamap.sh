@@ -2,7 +2,7 @@
 
 ############################
 #Config
-raw_data="/path/to/rawdata" #rawdataのあるディレクトリ
+raw_dir="/path/to/rawdata" #rawdataのあるディレクトリ
 primer_1="AAGTCGGAGGCCAAGCGGTCTTAGGAAGACAA" #除去するアダプター配列情報 #1
 primer_2="AAGTCGGATCGTAGCCATGTCGTTCTGTGAGCCAAGGAGTTG" #除去するアダプター配列情報 #2
 ref="/path/to/genome.fna"      #リファレンスとなるゲノム配列のfastaファイル
