@@ -18,7 +18,7 @@ mamba install -c bioconda star==2.7.11b -y
 mamba install -c bioconda seqfu==1.22.3 -y
 mamba install -c bioconda rsem==1.3.3 -y
 ```
-# config
+# Config
 Please edit the config part of the script, and enter the paths of the necessary files and directories.
 - The directory where rawdata is stored.
 - Information on the adapter sequence in Read1.
