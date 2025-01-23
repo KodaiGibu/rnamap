@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#実行例
-#nohup bash rnamap.sh -d /mnt/WDGOLD-03/gibu/Oj_h2/rawdata -r /mnt/WDGOLD-03/gibu/Oj_h2/ref_fasta/GCA_003999625.1_OJAV_1.1_genomic.fna -g /mnt/WDGOLD-03/gibu/Oj_h2/ref_fasta/genomic.gtf -1 AAGTCGGAGGCCAAGCGGTCTTAGGAAGACAA -2 AAGTCGGATCGTAGCCATGTCGTTCTGTGAGCCAAGGAGTTG -o /mnt/WDGOLD-03/gibu/Oj_h2/rnamap &
-
 # オプションから引数を渡す。
 while getopts ":r:g:d:1:2:o:" opt; do
   case $opt in
