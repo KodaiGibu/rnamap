@@ -10,7 +10,8 @@ gtf="/path/to/genomic.gtf"      #リファレンスとなるgtfファイル
 output="/path/to/output_dir"   #アウトプットを出力するディレクトリ 
 
 ############################
-#outputディレクトリに移動
+#outputディレクトリに移動,なければ作成する
+mkdir -p $output
 cd $output
 
 ############################
